@@ -45,7 +45,7 @@ class AudioServiceImpl(
         audioInfo: AuctionSaveInfo,
         audioFile: MultipartFile?
     ): Mono<String> {
-        return
+        return Mono.just("")
     }
 
     override fun remove(id: String) {
